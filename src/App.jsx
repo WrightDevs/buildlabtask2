@@ -1034,36 +1034,6 @@ export default function ZestDemo() {
         </div>
       </section>
 
-      {/* ── FOLDER STRUCTURE ── */}
-      <section className="demo-section">
-        <div className="demo-section-label">Repository</div>
-        <div className="demo-section-title">Folder Structure</div>
-        <div className="demo-file-tree">
-          <div><span className="tree-folder">zest-ui/</span></div>
-          <div>&nbsp;&nbsp;<span className="tree-folder">src/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">components/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">Button/</span>&nbsp;&nbsp;&nbsp;<span className="tree-comment">← variant, size, loading, icons</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-file">Button.jsx</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-file">Button.module.css</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-file">index.js</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">Badge/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">Input/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">Rating/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">Navbar/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">Modal/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">RestaurantCard/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">FoodItemCard/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">SignupForm/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-folder">tokens/</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-orange">theme.js</span>&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-comment">← colors, fonts, spacing</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-file">App.jsx</span></div>
-          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span className="tree-file">main.jsx</span></div>
-          <div>&nbsp;&nbsp;<span className="tree-orange">README.md</span></div>
-          <div>&nbsp;&nbsp;<span className="tree-file">package.json</span></div>
-          <div>&nbsp;&nbsp;<span className="tree-file">vite.config.js</span></div>
-        </div>
-      </section>
-
       {/* MODALS */}
       <Modal
         isOpen={modalOpen}
